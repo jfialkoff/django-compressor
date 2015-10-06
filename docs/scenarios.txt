@@ -20,8 +20,7 @@ in-request compression beneficial if:
 * Prefer a simple configuration. By default, there is no configuration
   required.
 
-Caveats
--------
+### Caveats
 
 * If deploying to a multi-server setup and using
   :attr:`~django.conf.settings.COMPRESS_PRECOMPILERS`, each binary is
@@ -47,8 +46,7 @@ You will find offline compression beneficial if:
 
 * You store compressed files on a CDN. 
 
-Caveats
--------
+### Caveats
 
 * If your templates have complex logic in how template inheritance is done
   (e.g. ``{% extends context_variable %}``), then this becomes a problem,
